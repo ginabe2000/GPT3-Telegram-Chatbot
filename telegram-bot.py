@@ -41,7 +41,7 @@ running = False
 cache = None
 qcache = None
 chat_log = None
-botname = 'Ai'
+botname = 'Daiki_Aomine_Bots'
 username = '@Fred_Aomine_Bot'
 
 # Max chat log length (A token is about 4 letters and max tokens is 2048)
