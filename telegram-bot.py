@@ -41,8 +41,9 @@ running = False
 cache = None
 qcache = None
 chat_log = None
-botname = 'Daiki_Aomine_Bots'
-username = '@Fred_Aomine_Bot'
+botname = 'Ai'
+username = 'Human'
+
 # Max chat log length (A token is about 4 letters and max tokens is 2048)
 max = int(3000)
 
@@ -72,8 +73,8 @@ def start(bot, update):
         chat_log = None
         cache = None
         qcache = None
-        botname = 'Daiki_Aomine_Bots'
-        username = '@Fred_Aomine_Bot'
+        botname = 'Ai'
+        username = 'Human'
         update.message.reply_text('Send a message!')
         return 
     else:
@@ -134,8 +135,9 @@ def retry(bot, update):
         chat_log = None
         cache = None
         qcache = None
-        botname = 'Daiki_Aomine_Bots'
-        username = '@Fred_Aomine_Bot'
+        botname = 'Ai'
+        username = 'Human'
+
         update.message.reply_text('Send a message!')
         return 
     else:
@@ -195,8 +197,8 @@ def wait(bot, update, botname, username, new):
                 cache = None
                 qcache = None
                 user = ""
-                botname = 'Daiki_Aomine_Bots'
-                username = '@Fred_Aomine_Bot'
+                botname = 'Ai'
+                username = 'Human'
                 update.message.reply_text('Timer has run down, bot has been reset to defaults.')
                 running = False
     else:
